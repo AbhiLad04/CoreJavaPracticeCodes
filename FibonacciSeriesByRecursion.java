@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class FibonacciSeriesByRecursion {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter The Number/Index until Which you want to print the Fibonacci Series :- ");
         int num = sc.nextInt();
