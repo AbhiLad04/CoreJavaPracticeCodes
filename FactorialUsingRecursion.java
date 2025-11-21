@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class FactorialUsingRecursion {
 
     public static void main(String[] args){
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Number to get it's Factorial :- ");
         int num = sc.nextInt();
@@ -13,7 +12,6 @@ public class FactorialUsingRecursion {
     }
 
     public int factorialRec(int num){
-
         if (num==1){
             return 1;
         }
